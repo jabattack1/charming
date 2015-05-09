@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Charming Nail</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<link rel="stylesheet" href="animate.min.css">
+<link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Allan:bold" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lekton" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Molengo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Belleza" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Allura" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+
+<body>
+<div id='top_banner'>
+	<nav id="primary_nav_wrap">
+<ul>
+  <li class="current-menu-item"><a href="#">Home</a></li>
+  <li><a href="#">Menu 1</a>
+    <ul class='animated flipInY'>
+      <li><a href="#">Sub Menu 1</a></li>
+      <li><a href="#">Sub Menu 2</a></li>
+      <li><a href="#">Sub Menu 3</a></li>
+      <li><a href="#">Sub Menu 4</a>
+        <ul>
+          <li><a href="#">Deep Menu 1</a>
+            <ul>
+              <li><a href="#">Sub Deep 1</a></li>
+              <li><a href="#">Sub Deep 2</a></li>
+              <li><a href="#">Sub Deep 3</a></li>
+                <li><a href="#">Sub Deep 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Deep Menu 2</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Sub Menu 5</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Menu 2</a>
+    <ul>
+      <li><a href="#">Sub Menu 1</a></li>
+      <li><a href="#">Sub Menu 2</a></li>
+      <li><a href="#">Sub Menu 3</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Menu 3</a>
+    <ul>
+      <li class="dir"><a href="#">Sub Menu 1</a></li>
+      <li class="dir"><a href="#">Sub Menu 2 THIS IS SO LONG IT MIGHT CAUSE AN ISSEUE BUT MAYBE NOT?</a>
+        <ul>
+          <li><a href="#">Category 1</a></li>
+          <li><a href="#">Category 2</a></li>
+          <li><a href="#">Category 3</a></li>
+          <li><a href="#">Category 4</a></li>
+          <li><a href="#">Category 5</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Sub Menu 3</a></li>
+      <li><a href="#">Sub Menu 4</a></li>
+      <li><a href="#">Sub Menu 5</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Menu 4</a></li>
+  <li><a href="#">Menu 5</a></li>
+  <li><a href="#">Menu 6</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+<%= yield %>
+
+</body>
+</html>
