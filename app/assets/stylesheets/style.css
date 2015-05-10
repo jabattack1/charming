@@ -11,6 +11,28 @@ body {
   margin: 0 auto;
 }
 
+#logo {
+	font-family: 'Corben', Georgia, Times, serif;
+	color: #FF8300;
+	width: 205px;
+	margin-left: 0px;
+	margin-top: 0px;
+	font-size: 2.4em;
+	position: absolute;
+	text-shadow: 1px 1px 1px #000000;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	/*border-radius: 5px 5px 5px 5px;*/
+	/*float: left;*/
+	padding-left: 1px;
+	padding-right: 1px;
+	text-align: center;
+	padding-top:10px;
+	/*padding-bottom:1px;*/
+	line-height: 93%;
+	height: 100px;
+}
+
 #top_banner {
 	background-image: url(http://i1301.photobucket.com/albums/ag119/jabattack1/charming%20banner_zpstejhzx7v.png);
 	position: absolute;
@@ -58,6 +80,10 @@ body {
 	z-index: 1;
 }
 
+#link:hover {
+	color: #FFD400;
+}
+
 #primary_nav_wrap ul li
 {
 	position:relative;
@@ -89,7 +115,7 @@ body {
 	padding-top:5px;
 	border:#CEAC00;
  	border-style:solid;
- 	border-width:2px; 
+ 	border-width:1px; 
  	border-bottom-left-radius:4%;
   	border-bottom-right-radius:4%;
   	border-top-left-radius:3%;
