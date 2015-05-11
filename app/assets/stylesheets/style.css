@@ -1,54 +1,101 @@
 body {
   background: url() no-repeat;
-  
-  /*background-size: 100%;*/
+  /*background-image: url(http://i1301.photobucket.com/albums/ag119/jabattack1/people_zpspsjnmms5.gif);*/
+  /*background-color:black;*/
+  background-size: 100%;
+  position:absolute;
   font-family: Georgia, serif;
-  background-position: center;
+  /*background-position: center;*/
   background-attachment:scroll;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   width:100%;
   height: 100%;
   margin: 0 auto;
 }
 
+#info{
+	font-family:"Belleza",Arial,sans-serif;
+	position:absolute;
+	margin-left:15px;
+	margin-top:120px;
+	width:225px;
+	height: 100px;
+	color:#CEAC00;
+	font-size:15px;
+	text-align:center;
+	/*background-color:rgba(0,0,0,0.5);*/
+	text-shadow: -.2px 0 black, 0 1px black, 1px 0 black, 0 -.2px black;
+	/*padding:0;*/
+	/*padding-top:5px;*/
+	/*border:#CEAC00;*/
+ 	/*border-style:solid;*/
+ 	/*border-width:1px; */
+ 	/*border-bottom-left-radius:4%;
+  	border-bottom-right-radius:4%;
+  	border-top-left-radius:3%;
+  	border-top-right-radius:3%;*/
+
+}
+
+#logo_back {
+	position:absolute;
+	margin-left: 10px;
+	margin-top:7px;
+	width: 238px;
+	/*background-color:white;*/
+	z-index: -2;
+}
+
 #logo {
-	font-family: 'Corben', Georgia, Times, serif;
-	color: #FF8300;
-	width: 205px;
-	margin-left: 0px;
-	margin-top: 0px;
-	font-size: 2.4em;
+	font-family: 'Allura', Georgia, Times, serif;
+	color: #BF00BC;
+	width: 220px;
+	margin-left: 25px;
+	margin-top: 45px;
+	font-size: 30px;
 	position: absolute;
-	text-shadow: 1px 1px 1px #000000;
-	border: 1px solid #000000;
-	background-color: #FFFFFF;
+	text-shadow: .5px .5px .5px #000000;
+	/*position: absolute;*/
+	/*border: 3px solid #000000;
+	background-color: #FFFFFF;*/
 	/*border-radius: 5px 5px 5px 5px;*/
 	/*float: left;*/
-	padding-left: 1px;
-	padding-right: 1px;
-	text-align: center;
-	padding-top:10px;
+	/*padding-left: 1px;
+	padding-right: 1px;*/
+	/*text-align: center;*/
+	/*padding-top:10px;*/
 	/*padding-bottom:1px;*/
-	line-height: 93%;
-	height: 100px;
+	/*line-height: 93%;*/
+	height: 20px;
+	/*z-index:0;*/
+
+}
+
+#flower{
+	position:absolute;
+	width: 200px;
+	margin-left:28px;
+	margin-top:25px;
+	z-index: -1;
 }
 
 #top_banner {
 	background-image: url(http://i1301.photobucket.com/albums/ag119/jabattack1/charming%20banner_zpstejhzx7v.png);
 	position: absolute;
 	background-size:contain;
-	margin-top:60px;
-	margin-left:240px;
-	width:100%;
- 	height: 20px;
+	margin-top:50px;
+	margin-left:250px;
+	width:963px;
+ 	height: 16px;
  	border: #CEAC00;
  	border-style:solid;
- 	border-width:3px; 
+ 	border-width:2.5px; 
  	background-repeat: no-repeat;
  	background-color:white;
+ 	border-radius: 5px;
 }
 
-#primary_nav_wrap
+/*#primary_nav_wrap
 {
 	margin-top:15px
 }
@@ -72,13 +119,14 @@ body {
 	line-height:32px;
 	padding:0 30px;
 	margin-left:10px;
-	margin-top: -22px;
+	margin-top: -24.5px;
 	font-family:"Belleza",Arial,sans-serif;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 	position:relative;
 	z-index: 1;
 }
+
 
 #link:hover {
 	color: #FFD400;
@@ -90,7 +138,7 @@ body {
 	float:left;
 	margin:0;
 	padding:0
-}
+}*/
 
 #primary_nav_wrap ul li.current-menu-item
 {
@@ -102,17 +150,18 @@ body {
 	/*background-color:rgba(0,0,0,0.5);*/
 }
 
-#primary_nav_wrap ul ul
+/*#primary_nav_wrap ul ul
 {
 	display:none;
 	position:absolute;
 	top:100%;
-	margin-left:10px;
-	width:95px;
-	margin-top: -2.6px;
+	margin-left:10px;*/
+	/*width:95px;*/
+	/*height:150px;*/
+/*	margin-top: -6px;
 	background-color:rgba(0,0,0,0.5);
 	padding:0;
-	padding-top:5px;
+	padding-top:15px;
 	border:#CEAC00;
  	border-style:solid;
  	border-width:1px; 
@@ -122,6 +171,25 @@ body {
   	border-top-right-radius:3%;
 }
 
+#services{
+	display:none;
+	position:absolute;
+	top:100%;
+	margin-left:10px;
+	width:95px;
+	height:90px;
+	margin-top: -6px;
+	background-color:rgba(0,0,0,0.5);
+	padding:0;
+	padding-top:15px;
+	border:#CEAC00;
+ 	border-style:solid;
+ 	border-width:1px; 
+ 	border-bottom-left-radius:4%;
+  	border-bottom-right-radius:4%;
+  	border-top-left-radius:3%;
+  	border-top-right-radius:3%;
+}
 #primary_nav_wrap ul ul li
 {
 	float:none;
@@ -143,4 +211,264 @@ body {
 #primary_nav_wrap ul li:hover > ul
 {
 	display:block
+}*/
+
+/*images*/
+
+#crossfade > img { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: -3;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 40s linear infinite 0s;
+    -moz-animation: imageAnimation 40s linear infinite 0s;
+    -o-animation: imageAnimation 40s linear infinite 0s;
+    -ms-animation: imageAnimation 40s linear infinite 0s;
+    animation: imageAnimation 40s linear infinite 0s; 
 }
+
+#crossfade > img:nth-child(2)  { 
+    background-image: url(../images/2.jpg);
+    -webkit-animation-delay: 9s;
+    -moz-animation-delay: 9s;
+    -o-animation-delay: 9s;
+    -ms-animation-delay: 9s;
+    animation-delay: 9s; 
+}
+#crossfade > img:nth-child(3) { 
+    background-image: url(../images/3.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+#crossfade > img:nth-child(4) { 
+    background-image: url(../images/4.jpg);
+    -webkit-animation-delay: 27s;
+    -moz-animation-delay: 27s;
+    -o-animation-delay: 27s;
+    -ms-animation-delay: 27s;
+    animation-delay: 27s; 
+}
+#crossfade > img:nth-child(5) { 
+    background-image: url(../images/5.jpg);
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+    animation-delay: 36s; 
+}
+
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-o-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-ms-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+
+
+
+
+
+
+.navigation {
+            width:700px;
+        }
+        .navigation ul{
+        /* positioning */
+        	position:relative;
+            z-index:1000;
+        /* remove the dots next to list items: */
+            list-style:none; 
+        /* get rid of any default or inherited margins and padding: */
+            margin-top:1px; 
+            margin-left:0px; 
+            
+        /* styling: */
+            font-family:"Belleza",Arial,sans-serif;
+            font-weight: normal;
+            font-size: 12px;
+        }
+        
+        /* we're using the direct descendant selectors > to ONLY affect the main menu items */
+        .navigation > ul > li {
+        /* positioning */ 
+            position: relative;
+            float: left;
+        /* styling: */
+            margin-right: 20px;
+        }
+        .navigation > ul > li > a {
+        /* positioning */ 
+            /*display:block;*/
+        /* styling: */
+            
+            padding:8px 24px;
+            text-decoration:none;
+            color:white; 
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            
+        }
+        .navigation > ul > li > a:hover{
+        /* styling: */
+            
+            color:#CEAC00; /* light grey */
+        }
+                
+
+.navigation ul ul{
+            
+            
+            width:340px; /* you need a width to accommodate tertiary menus */
+            margin-left: -50px;
+            position:absolute;
+            z-index:100;
+            
+            height: 0;
+            overflow: hidden;
+
+
+            -webkit-transition: height 0.3s ease-in;
+            -moz-transition: height 0.3s ease-in;
+            -o-transition: height 0.3s ease-in;
+            -ms-transition: height 0.3s ease-in;
+            transition: height 0.3s ease-in;
+        }
+        
+
+        /* don't display tertiary box yet */
+        .navigation > ul > li:hover ul ul, .navigation > ul > li > a:hover ul ul{
+            height:0;
+            
+        }
+        /* tertiary drop-down box */
+        .navigation ul ul ul{
+            left:150px;
+            width:170px;
+        }
+        
+        .navigation > ul > li:hover ul, .navigation > ul > li > a:hover ul,
+        .navigation ul ul li:hover > ul, .navigation ul ul li a:hover > ul{
+            height:220px;  
+        }
+        
+        /* drop-down item styles */
+        /* if you want different styling for tertiary menus, just copy the 4 rules below and insert an additional ul: for example: ".navigation ul ul li", becomes: ".navigation ul ul ul li" */
+        
+        .navigation ul ul li{
+        	margin-left: 10px;
+            background-color:rgba(0,0,0,0.5);
+            width:100px;
+           /* border: #CEAC00;
+ 			border-style:solid;
+ 			border-width:2.5px;
+ 			border-radius:5px;*/
+
+            -webkit-transition: background-color 0.3s ease;
+            -moz-transition: background-color 0.3s ease;
+            -o-transition: background-color 0.3s ease;
+            -ms-transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease;
+        }
+        
+        .navigation ul ul li:hover {
+            /*background-color:#999; /* grey */
+        }
+        
+        .navigation ul ul li a {
+            display:block;
+            text-decoration:none;
+            margin:0 12px;
+            padding:5px 0;
+            color:white; /* grey */
+        }
+        .navigation ul ul li a:hover, .navigation ul ul li:hover > a {
+            color:#CEAC00;
+        }
+
+.navigation ul ul ul li a{
+            border:0 !important;
+        }
+        .navigation ul ul ul li + li a{
+            border-top:1px dotted #999 !important;
+        }
+        .navigation ul ul li + li a{
+            border-top:1px dotted #999;
+        }
+        .navigation ul ul li:hover + li a{
+            /*border-top:1px solid #eaeaea;*/
+        }
+        .navigation ul ul ul li:hover + li a{
+            border: 0 !important;
+        }
+        .navigation ul ul ul li:hover + li{
+            /*border-top:1px dotted #999 !important;*/
+        }
+
+        .arrow{background:url(http://upload.wikimedia.org/wikipedia/commons/e/e8/ArrowRight-gray.svg) right center no-repeat;}
+
+#arrow {
+	position:absolute;
+	margin-top:-20px;
+	margin-left:80px;
+	width:15px;
+}
+
+#nails{
+	pointer-events: none;
+}
+
+
+
+ 
