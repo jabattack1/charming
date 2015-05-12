@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   resources :contact, only: [:index]
   resources :menu, only: [:index]
   resources :gallery, only: [:index]
+  resources :review, only: [:index]
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
