@@ -8,8 +8,10 @@ Rails.application.routes.draw do
   resources :manicure, only: [:index]
   resources :pedicure, only: [:index]
   resources :massage, only: [:index]
-  resources :foot, only: [:index]
-
+  resources :about, only: [:index]
+  resources :contact, only: [:index]
+  resources :menu, only: [:index]
+  resources :gallery, only: [:index]
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

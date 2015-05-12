@@ -348,6 +348,7 @@ body {
             float: left;
         /* styling: */
             margin-right: 20px;
+            /*margin-top:5px;*/
         }
         .navigation > ul > li > a {
         /* positioning */ 
@@ -415,11 +416,11 @@ body {
  			border-width:2.5px;
  			border-radius:5px;*/
 
-            -webkit-transition: background-color 0.3s ease;
-            -moz-transition: background-color 0.3s ease;
-            -o-transition: background-color 0.3s ease;
-            -ms-transition: background-color 0.3s ease;
-            transition: background-color 0.3s ease;
+            -webkit-transition: background-color 1s ease;
+            -moz-transition: background-color 1s ease;
+            -o-transition: background-color 1s ease;
+            -ms-transition: background-color 1s ease;
+            transition: background-color 1s ease;
         }
         
         .navigation ul ul li:hover {
@@ -465,9 +466,11 @@ body {
 	width:15px;
 }
 
-#nails{
+#nails {
 	pointer-events: none;
+	margin-top:2px;
 }
+
 
 
 
