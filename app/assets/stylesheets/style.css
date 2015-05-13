@@ -473,7 +473,7 @@ body {
 }
 
 #manicure_page {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.5);
 	width: 990px;
 	height: 500px;
 	margin-top: 120px;
@@ -485,7 +485,7 @@ body {
 }
 
 #pedicure_page {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.5);
 	width: 990px;
 	height: 500px;
 	margin-top: 120px;
@@ -497,7 +497,7 @@ body {
 }
 
 #massage_page {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.5);
 	width: 990px;
 	height: 500px;
 	margin-top: 120px;
@@ -509,7 +509,7 @@ body {
 }
 
 #about_page {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.5);
 	width: 990px;
 	height: 500px;
 	margin-top: 120px;
@@ -521,7 +521,7 @@ body {
 }
 
 #menu_page {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.5);
 	width: 990px;
 	height: 500px;
 	margin-top: 120px;
@@ -533,7 +533,7 @@ body {
 }
 
 #gallery_page {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.5);
 	width: 990px;
 	height: 500px;
 	margin-top: 120px;
@@ -545,7 +545,7 @@ body {
 }
 
 #review_page {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.5);
 	width: 990px;
 	height: 500px;
 	margin-top: 120px;
@@ -557,7 +557,7 @@ body {
 }
 
 #contact_page {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.5);
 	width: 990px;
 	height: 500px;
 	margin-top: 120px;
@@ -566,6 +566,84 @@ body {
  	border-style:solid;
  	border-width:2.5px; 
  	border-radius: 5px;
+}
+
+#pedipic {
+	position: absolute;
+	width: 320px;
+	height: 450px;
+	margin-top: 24px;
+	margin-left:642px;
+	border: #CEAC00;
+ 	border-style:solid;
+ 	border-width:2.5px; 
+ 	border-radius: 5px;
+}
+
+#manipic {
+	position: absolute;
+	width: 320px;
+	height: 450px;
+	margin-top: 24px;
+	margin-left:642px;
+	border: #CEAC00;
+ 	border-style:solid;
+ 	border-width:2.5px; 
+ 	border-radius: 5px;
+}
+
+#maspic {
+	position: absolute;
+	width: 320px;
+	height: 450px;
+	margin-top: 24px;
+	margin-left:642px;
+	border: #CEAC00;
+ 	border-style:solid;
+ 	border-width:2.5px; 
+ 	border-radius: 5px;
+}
+
+#manicure_menu {
+	color:white;
+	font-family:"Belleza",Arial,sans-serif;
+	position:absolute;
+	margin-left:80px;
+	margin-top:70px;
+	font-size:20px;
+}
+
+#manititle {
+	font-size:23px;
+	font-style:bold;
+}
+
+#pedicure_menu {
+	color:white;
+	font-family:"Belleza",Arial,sans-serif;
+	position:absolute;
+	margin-left:355px;
+	margin-top:70px;
+	font-size:20px;
+}
+
+#pedititle {
+	font-size:23px;
+	font-style:bold;
+}
+
+#massage_menu {
+	color:white;
+	font-family:"Belleza",Arial,sans-serif;
+	position:absolute;
+	margin-left:670px;
+	margin-top:70px;
+	font-size:20px;
+}
+
+#massagetitle {
+	font-size:23px;
+	font-style:bold;
 }
 
 
