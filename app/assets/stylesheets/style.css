@@ -554,6 +554,7 @@ body {
  	border-style:solid;
  	border-width:2.5px; 
  	border-radius: 5px;
+ 	overflow-y: auto;
 }
 
 #contact_page {
@@ -618,6 +619,20 @@ body {
 	font-style:bold;
 }
 
+#manicure_menu_1 {
+	color:white;
+	font-family:"Belleza",Arial,sans-serif;
+	position:absolute;
+	margin-left:60px;
+	margin-top:160px;
+	font-size:17px;
+}
+
+#manititle_1 {
+	font-size:20px;
+	font-style:bold;
+}
+
 #pedicure_menu {
 	color:white;
 	font-family:"Belleza",Arial,sans-serif;
@@ -632,6 +647,20 @@ body {
 	font-style:bold;
 }
 
+#pedicure_menu_1 {
+	color:white;
+	font-family:"Belleza",Arial,sans-serif;
+	position:absolute;
+	margin-left:60px;
+	margin-top:160px;
+	font-size:17px;
+}
+
+#pedititle_1 {
+	font-size:20px;
+	font-style:bold;
+}
+
 #massage_menu {
 	color:white;
 	font-family:"Belleza",Arial,sans-serif;
@@ -643,6 +672,20 @@ body {
 
 #massagetitle {
 	font-size:23px;
+	font-style:bold;
+}
+
+#massage_menu_1 {
+	color:white;
+	font-family:"Belleza",Arial,sans-serif;
+	position:absolute;
+	margin-left:60px;
+	margin-top:160px;
+	font-size:17px;
+}
+
+#massagetitle_1 {
+	font-size:20px;
 	font-style:bold;
 }
 
@@ -748,6 +791,7 @@ body {
 	margin-top:30px;
 	font-size:18px;
 	width:900px;
+
 }
 
 
